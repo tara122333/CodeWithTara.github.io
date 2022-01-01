@@ -1,0 +1,8 @@
+nav ul {
+    flex-direction: column;
+}
+#home::before {
+    content: "";
+    position: absolute;
+    height: 939px;
+}

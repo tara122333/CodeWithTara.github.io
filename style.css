@@ -12,11 +12,7 @@
 nav{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    position: relative;
     font-family: 'Open Sans', sans-serif;
-    /* border: 4px solid red; */
-    /* background-color: rgba(51, 177, 149, 0.856); */
 }
 nav::before{
     content: "";
@@ -188,7 +184,7 @@ nav ul .nav_btn a button:hover{
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    height: 550px;
+    height: 680px;
     width: 95%;
     /* border: 3px solid red; */
     margin: 34px;
@@ -276,6 +272,7 @@ nav ul .nav_btn a button:hover{
     font-size: 2.1rem;
     margin: 12px;
     color: #0facf1;
+    font-family: monospace;
 }
 #team .team-box p{
     font-size: 1.3rem;
